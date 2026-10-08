@@ -1,0 +1,20 @@
+# ===== Obsidian 动态文件（per-device，不要同步）=====
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json        # 有的版本叫这个，也排除
+
+# ===== 废纸篓 =====
+.trash/
+
+# ===== 缓存 / 临时 =====
+.obsidian/cache/
+.obsidian/plugins/*/data.json    # 部分插件本地数据，按需；不熟就先不留这行
+
+# ===== Canvas / Excalidraw 自动备份 =====
+*.canvas.backup
+*.excalidraw.dark.svg
+*.excalidraw.light.svg
+
+# ===== 系统隐藏 =====
+.DS_Store
+Thumbs.db
